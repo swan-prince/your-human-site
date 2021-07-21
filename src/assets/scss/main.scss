@@ -1,0 +1,18 @@
+@import url('./font.scss');
+
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, span, p, a, div {
+    font-family: SF Compact;
+}
+
+.themeScroll::-webkit-scrollbar {
+    width: 7px;
+    background: #1F1F1F;
+    border-radius: 4px
+}
+.themeScroll::-webkit-scrollbar-thumb {    
+    border-radius: 4px;
+    background: #414141;
+}
